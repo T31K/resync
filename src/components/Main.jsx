@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Main() {
   return (
     <main className="flex-1  overflow-y-auto p-10 bg">
@@ -55,6 +53,7 @@ function Main() {
                 <div className="px-3 py-2">
                   <p>And here's some amazing content. It's very engaging. Right?</p>
                 </div>
+                ``
                 <div data-popper-arrow></div>
               </div>
               <div
@@ -197,8 +196,20 @@ function Main() {
               </div>
             </div>
           </li>
+
+          <li className="mb-10 ml-6">
+            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <img
+                className="rounded-full shadow-lg "
+                src="https://images.squarespace-cdn.com/content/v1/5446f93de4b0a3452dfaf5b0/1626904421257-T6I5V5IQ4GI2SJ8EU82M/Above+Avalon+Neil+Cybart"
+                alt="Bonnie image"
+              />
+            </span>
+            <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm  dark:bg-gray-700 dark:border-gray-600 "></div>
+          </li>
         </ol>
       </div>
+      <div className="h-[400px]"></div>
     </main>
   );
 }

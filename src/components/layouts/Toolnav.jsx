@@ -2,8 +2,8 @@ import { BsFillRocketTakeoffFill } from 'react-icons/bs';
 
 function Toolnav() {
   return (
-    <aside className="sm:w-72 border-l border-gray-200  overflow-y-auto px-3 pt-3">
-      <div className="border border-gray-200 bg-gray-50 py-5 px-3.5 rounded-lg gap-3 ">
+    <aside className="sm:w-72 border-l border-gray-100 bg-gray-100  overflow-y-auto px-3 pt-3">
+      <div className="border border-gray-200 bg-white py-5 px-3.5 rounded-lg gap-3 ">
         <div className="flex items-center gap-2">
           <BsFillRocketTakeoffFill className="text-md text-gray-500" />
           <div className="text-gray-800 text-sm font-normal">Objective</div>
@@ -17,7 +17,7 @@ function Toolnav() {
           about Measurement.
         </div>
       </div>
-      <div className="border border-gray-200 bg-gray-50 py-5 px-3.5 rounded-lg gap-3 mt-3">
+      <div className="border border-gray-200 bg-white py-5 px-3.5 rounded-lg gap-3 mt-3">
         <div className="flex items-center gap-2">
           <BsFillRocketTakeoffFill className="text-md text-gray-500" />
           <div className="text-gray-800 text-sm font-normal">Actionables</div>
@@ -56,7 +56,7 @@ function Toolnav() {
           </div>
         </div>
       </div>
-      <div className="border border-gray-200 bg-gray-50 py-5 px-3.5 rounded-lg gap-3 mt-3">
+      <div className="border border-gray-200 bg-white py-5 px-3.5 rounded-lg gap-3 mt-3">
         <div className="flex items-center gap-2">
           <BsFillRocketTakeoffFill className="text-md text-gray-500" />
           <div className="text-gray-800 text-sm font-normal">Participants</div>
